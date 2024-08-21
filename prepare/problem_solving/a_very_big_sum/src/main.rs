@@ -10,6 +10,11 @@ use std::io::{self, BufRead, Write};
  */
 
 fn aVeryBigSum(ar: &[i64]) -> i64 {
+    let mut sum: i64 = 0;
+    for i in 0..ar.len() {
+        sum += ar[i];
+    }
+    sum
 
 }
 
